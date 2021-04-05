@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assigment Solution for Module 2</title>
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	h1{
+		text-align: center;
+		margin-bottom: 100px;
+	}
+
+	.ar1{
+		border: 1px solid black;
+		background-color: pink;
+		width: 35%;
+		height: 30px;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-family: Helvetica;
+		color:black;
+		font-weight: bold;
+		text-align: center; 
+	}
+	.ar2{
+		border: 1px solid black;
+		background-color: red;
+		width: 35%;
+		height: 30px;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-family: Helvetica;
+		color:black;
+		font-weight: bold;
+		text-align: center;
+	}
+	.ar3{
+		border: 1px solid black;
+		background-color: yellow;
+		width: 35%;
+		height: 30px;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-family: Helvetica;
+		color:black;
+		font-weight: bold;
+		text-align: center;
+	}
+	.ar4{
+		border: 1px solid black;
+		background-color: gray;
+		width: 90%;
+		height: 200px; 
+		overflow: auto;
+	}
+	p{
+		margin-right: 10px;
+		margin-left: 10px;
+		font-family: Arial, Helvetica,sans-serif;
+		color:black;
+		text-align: left;
+	}
+	.row{
+		width: 95%;
+	}
+	/************Large devices only********/
+@media(min-width: 992px){
+	.col-lg-1{
+		float: left;
+		width: 31.66%;	
+	}
+}
+/************Medium devices only*************/
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-1{
+		float: left;
+		width: 47.5%;
+	}
+	.col-md-2{
+		float: left;
+		width: 100%;
+	}
+}
+
+@media(max-width: 767px){
+	.col-ow-1{
+			float: central;
+			width: 95%;
+		}
+}
+
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+<div class="row">
+	<div class="col-lg-1 col-md-1 col-ow-1"><div class="ar4"><div class="ar1">Chicken</div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
+	<div class="col-lg-1 col-md-1 col-ow-1"><div class="ar4"><div class="ar2">Beef</div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
+	<div class="col-lg-1 col-md-2 col-ow-1"><div class="ar4"><div class="ar3">Sushi</div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
+</div>
+</body>
+</html>
